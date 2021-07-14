@@ -51,7 +51,7 @@ linter:
     - always_specify_types
     - annotate_overrides
     # - avoid_annotating_with_dynamic # conflicts with always_specify_types
-    - avoid_as
+    - avoid_types_as_parameter_names
     - avoid_bool_literals_in_conditional_expressions
     # - avoid_catches_without_on_clauses # we do this commonly
     # - avoid_catching_errors # we do this commonly
@@ -77,7 +77,6 @@ linter:
     # - avoid_shadowing_type_parameters # not yet tested
     # - avoid_single_cascade_in_expression_statements # not yet tested
     - avoid_slow_async_io
-    - avoid_types_as_parameter_names
     # - avoid_types_on_closure_parameters # conflicts with always_specify_types
     - avoid_unused_constructor_parameters
     - avoid_void_async
@@ -161,7 +160,6 @@ linter:
     - slash_for_doc_comments
     # - sort_child_properties_last # not yet tested
     - sort_constructors_first
-    - sort_pub_dependencies
     - sort_unnamed_constructors_first
     - test_types_in_equals
     - throw_in_finally
